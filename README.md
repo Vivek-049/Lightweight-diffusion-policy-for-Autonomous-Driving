@@ -25,7 +25,7 @@ The diffusion policy uses:
 - Language/intent conditioning through an embedding layer.
 - A lightweight CNN vision encoder.
 - Transformer encoder/decoder blocks for multimodal conditioning.
-- Diffusion over action chunks with DDIM sampling for faster inference.
+- Diffusion-style prediction over short action chunks.
 - Action dimension of 4: forward, backward, left, and right.
 - Action chunk size of 5 future steps.
 
